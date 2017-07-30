@@ -20,6 +20,7 @@ module.exports = function(url,callback){
           name:$this.text(),//获取开始和结束标签之间的文本
           url:$this.attr('href')//获取href属性的值
         }
+        console.log('读到电影:'+movie.name);
         movies.push(movie);
       })
       callback(null,movies);
@@ -28,7 +29,8 @@ module.exports = function(url,callback){
     }
   })
 }
+/*
 let url = 'http://top.baidu.com/buzz?b=26&c=1&fr=topcategory_c1';
 module.exports(url,function(err,movies){
   console.log(movies);
-});
+});*/
