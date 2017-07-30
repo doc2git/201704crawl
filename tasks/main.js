@@ -4,15 +4,15 @@ let async = require('async');
 let Movie = require('../model');
 let url = 'http://top.baidu.com/buzz?b=26&c=1&fr=topcategory_c1';
 async.waterfall([
-  function(callback){
+  function(next){
     //先清空数据库
-    Movie.remove({},callback);
+    Movie.remove({},next);//callback(null,result)
   },
-  function(data,callback){
-    read(url,callback);//callback(null,movies)
+  function(data,next){
+    read(url,next);//next(null,movies)
   },
-  function(movies,callback){
-   write(movies,callback);
+  function(movies,next){
+   write(movies,next);
   }
 ],function(err){
   console.log('All Done');
