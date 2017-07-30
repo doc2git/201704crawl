@@ -46,6 +46,9 @@ apt-get install git
 git clone https://github.com/zhufengnodejs/201704crawl.git
 cd 201704crawl
 npm install
+cd tasks
+node main.js
+cd ..
 node server.js
 ```
 
