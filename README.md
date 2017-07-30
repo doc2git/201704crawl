@@ -41,3 +41,11 @@ apt-get install mongodb
 apt-get install git
 ```
 
+## 下载项目前启动
+```
+git clone https://github.com/zhufengnodejs/201704crawl.git
+cd 201704crawl
+npm install
+node server.js
+```
+
