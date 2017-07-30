@@ -52,3 +52,9 @@ cd ..
 node server.js
 ```
 
+
+## 安装nginx可以提供静态网站服务
+```
+apt-get install nginx
+```
+
