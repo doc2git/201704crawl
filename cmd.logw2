@@ -1,0 +1,58 @@
+    1  apt-get update
+    2  apt-get install npm 
+    3  npm install n -g
+    4  n 7.5
+    5  node -v
+    6  apt-get install mongodb
+    7  apt-get install git
+    8  ls
+    9  git clone https://github.com/zhufengnodejs/201704crawl.git
+   10  cd 201704crawl/
+   11  npm install
+   12  ls
+   13  node server.js 
+   14  ls
+   15  cd tasks/
+   16  ls
+   17  node main.js 
+   18  cd ..
+   19  ls
+   20  node server.js 
+   21  ls
+   22  cd tasks
+   23  ls
+   24  node main.js
+   25  cd ..
+   26  ls
+   27  node server.js 
+   28  scp
+   29  ls
+   30  scp a.html root@ip
+   31  eixt
+   32  exit
+   33  ls
+   34  apt-get install nginx
+   35  cat /etc/nginx/nginx.conf
+   36  cd /etc/nginx/conf.d/
+   37  ls
+   38  cat /etc/nginx/sites-enabled/default 
+   39  cd /var/www/html
+   40  ls
+   41  cd /root
+   42  ls
+   43  cd 201704crawl/
+   44  ls
+   45  node server.js 
+   46  npm install pm2 -g
+   47  pm2 start server.js --name "crawl"
+   48  pm2 start server.js --name"crawl"
+   49  pm2 start server.js --name "crawl"
+   50  ls
+   51  cd 201704crawl/
+   52  pm2 start server.js --name "crawl"
+   53  pwd
+   54  cd /root/201704crawl/
+   55  ls
+   56  pm2 list
+   57  history
+   58  history > a.log
